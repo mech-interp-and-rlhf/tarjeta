@@ -52,11 +52,11 @@
     // Place crewmate.png image at 85% horizontally and vertically centered on the CANVAS
     let image-x = 0.85 * width
     let image-y = -height / 2
-    draw.content(
-      (image-x, image-y),
-      image("crewmate.png", height: 3cm),
-      anchor: "center"
-    )
+    // draw.content(
+    //   (image-x, image-y),
+    //   image("crewmate.png", height: 3cm),
+    //   anchor: "center"
+    // )
   }
 )
 
